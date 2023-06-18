@@ -1,0 +1,10 @@
+.payment-option-container{
+    display: block;
+    margin: 0 auto;
+}
+.payment-contents{
+    text-align: left;
+}
+ul{
+    list-style: none;
+}

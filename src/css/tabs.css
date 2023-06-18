@@ -1,0 +1,15 @@
+.box-tab-container{
+    width: 100vw;
+    margin-bottom: 2vh;
+    height: auto;
+}
+
+.tab-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.tab-container .tab{
+    flex:1;
+}
+

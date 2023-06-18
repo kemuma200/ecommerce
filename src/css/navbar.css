@@ -1,0 +1,22 @@
+.mainNavbar{
+    display: flex;
+}
+
+.left-navbar-section{
+    flex:1;
+    margin-right: auto;
+}
+.left-navbar-section .navItem{
+    text-decoration: none;
+}
+.right-navbar-section{
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-navbar-section .navItem{
+    flex:1;
+    text-decoration: none; 
+    text-transform: uppercase;
+}

@@ -1,0 +1,28 @@
+.homepage {
+    text-align: center;
+    height: 100vh;
+    max-width: 100vw;
+    display: relative;
+    
+  }
+  .mainHeader{
+    position: absolute;
+    left: 0; right: 0; top: 0;
+    padding: 3px 8px;
+    color: #fff;
+    z-index: 1;
+    
+  }
+  .backgroundImage{
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 0;
+  
+  }
+  .mainFooter{
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    padding: 3px 8px;
+    color: #fff;
+    z-index: 1;
+  }

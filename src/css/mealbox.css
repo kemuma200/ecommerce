@@ -1,0 +1,10 @@
+/* .slideshow-section{
+    width: auto;
+    height: auto;
+    max-width: 80vw;
+    max-height:30vh;
+} */
+.slideshow-section{
+    width:20vh;
+    height:20vh;
+}

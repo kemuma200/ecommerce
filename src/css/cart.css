@@ -1,0 +1,34 @@
+
+.cart .cartProductContainer{
+    width: 90vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+
+}
+.cartT{
+    margin-top: 2vh;
+    display: flex;
+}
+.cartItem {
+    width: 100%;
+    height: 10vh;
+    display: inline;
+}
+.cartItem .cartItemSection{
+    min-width: 10%;
+    width: 10%;
+    padding: 2vh;
+}
+.cartItemImage{
+   width: 20%;
+   height: auto; 
+}
+.cartFilter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
