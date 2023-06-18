@@ -5,7 +5,7 @@ import Navbar from './components/navbar'
 import Footer from './components/footer'
 import Homepage from './components/homepage'
 import About from './components/about'
-import Contact from './components/contact'
+import Contact from './components/contact';
 import MealBox from './components/meal-box'
 import Grocery from './components/grocery'
 import Cart from './components/cart'
@@ -21,7 +21,7 @@ import Sidebar from './components/sidebar'
 import Payment from './components/payment';
 import Tabs from './components/tabs'
 import Test from './components/test'
-import ErrorBoundary from './ErrorBoundary'
+import { ErrorBoundary } from "react-error-boundary";
 import NotFoundError from "./components/errors/notFound"
 
 
