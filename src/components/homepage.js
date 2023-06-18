@@ -7,7 +7,7 @@ import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/
 import Footer from '../components/footer'
 import Header from '../components/header'
 import SlideshowImage from '../components/slideshowImage'
-
+import { Link} from "react-router-dom"
 
 
 export default class Homepage extends React.Component{
@@ -34,7 +34,9 @@ export default class Homepage extends React.Component{
                 <div className="mainFooter">
                 <div className="footer">
                 <div className="footer-left">
-                <FontAwesomeIcon className="footer-left-icon" icon={solid('arrow-right')} />
+                    <Link to="/meal-box">
+                        <FontAwesomeIcon className="footer-left-icon" icon={solid('arrow-right')} />
+                    </Link>
                 </div>
                 
                 <div class="socialHandles">
